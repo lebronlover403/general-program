@@ -38,3 +38,23 @@
             // you can also do math or other operatoins inside of curly braces;
             console.log(`2 + 3 = ${2 + 3}`);
 
+            // many programin languages have a 'char' datatype, representing 
+            //a single character, javascript does not.
+
+            /* boolean 
+            boolean is named for george boole, 
+            namly ways to make decision using true and false statements. the boolean datatype can hold only 2 values: true or false 
+            /* null 
+            this is a special datatype. it contains only 1 value: null. 
+            null in jahscript mean "nothing", "empty", or "value unknown"
+            undeflined "underfined" in javascript mean that the value has not been assigned
+
+            let age;  <- here a variable was declated, but not defined so it is "undefined"
+            and are likely beyond the scope of this class 
+
+            if you need to know the type of variable, you can use the typeof () function. */
+
+            console.log(typeof("word"));
+            
+
+alert(null || 2 || underfined);
