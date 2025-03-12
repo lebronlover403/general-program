@@ -236,62 +236,84 @@
 // //     sum += primes.pop();
 // // }
 
-// // the inverse of .pop() is .push()
-// // .push () adds an element to the end of the array.
+// // // the inverse of .pop() is .push()
+// // // .push () adds an element to the end of the array.
 
-// let fruits ["apple", "banana", "canteloupe"]
+// // let fruits ["apple", "banana", "canteloupe"]
 
-// console.log(fruits);
+// // console.log(fruits);
 
-// fruits.push ("watermelon");
-// console.log(fruits);
+// // fruits.push ("watermelon");
+// // console.log(fruits);
 
-// //unshift ()- push but at the beginning 
-// fruits.unshift ("apricot");
-// console.log(fruits);
+// // //unshift ()- push but at the beginning 
+// // fruits.unshift ("apricot");
+// // console.log(fruits);
 
-// // push and unshift can add multiple elements at once 
-// fruits push ("orange", "peach")
-// fruits. unshift ("lemon, "pineapple")
+// // // push and unshift can add multiple elements at once 
+// // fruits push ("orange", "peach")
+// // fruits. unshift ("lemon, "pineapple")
 
-// console.log(fruits);
+// // console.log(fruits);
 
-// //using loops with arrays
-// // heres an "old" style of pringint all of the array values;
+// // //using loops with arrays
+// // // heres an "old" style of pringint all of the array values;
 
-// for (let i = 0; i < fruits.length;
+// // for (let i = 0; i < fruits.length;
 
-// for(let fruit of fruits) {
-//     console.log(fruit);
-// }
+// // for(let fruit of fruits) {
+// //     console.log(fruit);
+// // }
 
-/* somethings to note about arrays is
-array.length is returning the value of the last index + 1, it is not actually 
-counting the numver of values is the array*/
+// /* somethings to note about arrays is
+// array.length is returning the value of the last index + 1, it is not actually 
+// counting the numver of values is the array*/
 
-// let grades = ["A","A","B", ,"B", "A"]
-// console.log(grades);
-// console.log(grades.length);
+// // let grades = ["A","A","B", ,"B", "A"]
+// // console.log(grades);
+// // console.log(grades.length);
 
-// let badArray = [];
-// badArray[314] = "pie";
-// console.log(badArray)
+// // let badArray = [];
+// // badArray[314] = "pie";
+// // console.log(badArray)
 
-//a multidimensional array is an array that is, in turn,
-//a multidimensional array, is an array that is, in turn made up of more arrays.
+// //a multidimensional array is an array that is, in turn,
+// //a multidimensional array, is an array that is, in turn made up of more arrays.
 
-// an array holding Xy cooordinates of 5 points
-//3,4 and 1,2 and 9,15 and 37, 11, and 215ir
-let coordinates= [
-    [3,4],
-    [1,2],
-    [9,15],
-    [37,11],
-    [215,1],
-]
+// // an array holding Xy cooordinates of 5 points
+// //3,4 and 1,2 and 9,15 and 37, 11, and 215ir
+// let coordinates= [
+//     [3,4],
+//     [1,2],
+//     [9,15],
+//     [37,11],
+//     [215,1],
+// ]
 
-console.log(coordinates[4][0]);
+// console.log(coordinates[4][0]);
 
-coordinates[4][0] = 21;
+// coordinates[4][0] = 21;
 
-console.log(coordinates);
+// console.log(coordinates);
+
+
+let teststring = "The Quick Brown fox jumped over the lazy dog";
+
+let string1 = teststring.slice(3,10)
+let string2= teststring.substring(3,10)
+let string3 = teststring.substr(3,10)
+
+console.log(string1);
+console.log(string2);
+console.log(string3);
+
+
+/* two final string string methods;
+.toUpperCase() makes the string all uper case 
+.toLowerCase() makes the string all lower case 
+*/
+
+let teststring ="THhE QuiCK BrOWN Fox JuMPed Over THE LAzy DoG";
+
+console.log(testString2.toUpperCase());
+console.log(testString.toLowercase());
